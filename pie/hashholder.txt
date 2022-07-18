@@ -1,0 +1,7 @@
+Bucket,Key,Value,Marked for deletion,OPEN_ADDRESS_TABLE
+0, None
+1, faye, valentine, False
+2, dipper, pines, False
+3, None
+4, bobby, hill, False
+5, None
