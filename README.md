@@ -5,16 +5,22 @@ HOW TO REQUEST ENCRYPTION/DECRYPTION FROM MICROSERVICE
 This microservice uses text files for communication. In order to request encryption/decryption, the instructions for the microservice must be written in the 'pw.txt' file.  The template for the instructions is as follows:
 
 Line 1: 'e' or 'd' (to denote encryption or decryption)
+
 Line 2: path to 'hashholder.txt' (the path for the holding file for the microservice)
           NOTE: This must be the local path for the microservice, not the path for the main application; is almost always 'hashholder.txt'
+          
 Line 3: encryption key (FOR DECRYPTION ONLY)
 
 Therefore, a sample call for the microservice for encryption is:
+
     f = open("/path/to/pw.txt", "w")
+    
     f.write("e\nhashholder.txt")
 
 Similarly, a sample call to the microservice for decryption is:
+
     f = open("/path/to/pw.txt", "w")
+    
     f.write("d\nhashholder.txt\n" + key) 
         # key is the encryption key used to decrypt the file
         
