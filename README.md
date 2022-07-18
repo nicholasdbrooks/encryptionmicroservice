@@ -37,7 +37,9 @@ For the decryption, the decrypted file is made available to the client service v
 UML Diagrams
 
 To Encrypt a File
+
 ![Sequence Diagram ATM Transferal](https://user-images.githubusercontent.com/91216579/179605202-b806936e-bc25-46bc-9c4a-2562655215ce.png)
 
 To Decrypt a File
+
 ![Sequence Diagram ATM Transferal(1)](https://user-images.githubusercontent.com/91216579/179605241-bc6305c0-0b1c-4951-9592-733d7013de1c.png)
